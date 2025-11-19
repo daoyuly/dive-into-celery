@@ -1,0 +1,10 @@
+[project]
+name = "celery-learning"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "celery>=5.5.3",
+    "redis>=5.0.0",  # Redis 作为消息代理和结果后端
+]
